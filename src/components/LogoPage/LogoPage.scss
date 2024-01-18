@@ -1,0 +1,34 @@
+@import '../../Styles/variables.scss';
+
+.logo-page-header {
+  background-color: $primaryBlack;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 105vw;
+}
+
+.page-name {
+  color: white;
+  font-family: $mainFont;
+  size: 2em;
+}
+
+.black-chocobo {
+  margin-top: 3%;
+  height: 25em;
+}
+
+@media screen and (max-width: 455px) {
+  .black-chocobo {
+    height: 20em;
+  }
+  .page-name {
+    font-size: 1.5em;
+  }
+  .click-me {
+    font-size: 1em;
+  }
+}

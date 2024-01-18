@@ -1,0 +1,19 @@
+@import '../../Styles/variables.scss';
+@import '../../Styles/mixins.scss';
+
+.search {
+  color: $primaryYellow;
+  background-color: $primaryBlack;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  @include search-input-style
+}
+
+@media screen and (max-width: 455px) {
+  .search-input {
+    font-size: 1em;
+  }
+}

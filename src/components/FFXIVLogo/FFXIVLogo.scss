@@ -1,0 +1,24 @@
+.ffxiv-logo {
+  height: 200px;
+  background-color: black
+}
+
+.ff-logo-container {
+  display: flex;
+  // flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+
+
+@media screen and (max-width: 455px) {
+  .ffxiv-logo {
+    height: 110px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .ffxiv-logo {
+    height: 150px;
+  }
+}

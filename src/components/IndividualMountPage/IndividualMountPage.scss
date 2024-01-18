@@ -1,0 +1,50 @@
+@import '../../Styles/variables.scss';
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 99%;
+}
+
+.mount-page {
+  background-color: $primaryBlack;
+  height: 100vh;
+}
+
+.mount-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $primaryBlack;
+  width: 100%;
+}
+
+.modal-image {
+  max-width: 25%;
+}
+
+.mount-name {
+  opacity: 1;
+}
+
+.enhanced-description {
+  color: $cream;
+  font-size: 1.5em;
+  margin-left: 1%;
+  width: 85%;
+}
+
+.mount-info {
+  display: flex;
+  justify-content: space-around;
+  color: $cream;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.collected-mount-icon {
+  margin-left: 7%;
+}

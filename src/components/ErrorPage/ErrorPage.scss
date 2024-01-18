@@ -1,0 +1,40 @@
+@import '../../Styles/variables.scss';
+@import '../../Styles/mixins.scss';
+
+.error-page {
+  @include flex-container;
+  flex-direction: column;
+  background-color: $primaryBlack;
+  height: 100vh;
+  justify-content: center;
+
+  .error-page-text {
+    color: white;
+    font-family: $mainFont;
+    text-align: center;
+  }
+
+  .back-from-error-page {
+    margin-left: 43%;
+  }
+
+  @include mobile-size (455px) {
+    .hydra {
+      height: 100px;
+    }
+  }
+
+  @include mobile-size(600px) {
+    .ffxiv-logo {
+      height: 150px;
+      margin-left: 30%;
+    }
+  }
+
+  @include mobile-size(750px) {
+    .ffxiv-logo {
+      height: 150px;
+      margin-left: 30%;
+    }
+  }
+}

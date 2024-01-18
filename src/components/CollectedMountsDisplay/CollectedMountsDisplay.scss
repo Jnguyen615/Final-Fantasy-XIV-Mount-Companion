@@ -1,0 +1,80 @@
+@import '../../Styles/variables.scss';
+
+* {
+  font-family: $mainFont
+}
+
+.collected-mounts-page {
+  background-color: $primaryBlack;
+  height: 100vh;
+}
+
+.collected-mounts-title {
+  font-size: 3.2em;
+  text-align: center;
+  color: $cream;
+}
+
+.fire-bird {
+  width: 30%;
+  align-self: center;
+  margin-left: 35%;
+  margin-top: -3%
+}
+
+.no-favorites {
+  font-size: 3em;
+  color: $cream;
+  text-align: center;
+}
+
+.back-to-all-btn {
+  margin-left: 90%
+}
+
+.collected-mounts-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin-left: 20px;
+  background-color: $primaryBlack;
+  margin-top: 2%;
+  width: 100vw
+}
+
+@media screen and (max-width: 455px) {
+  .collected-mounts-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .collected-mounts-container {
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  .back-to-all-btn {
+    margin-left: 80%;
+    font-size: 1.5em;
+  }
+
+@media screen and (max-width: 1000px) {
+  .collected-mounts-container {
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  .back-to-all-btn {
+    margin-left: 85%
+  }
+  
+}
+
+@media screen and (max-width: 1275px) {
+  .collected-mounts-container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px
+  }
+}
+}
+

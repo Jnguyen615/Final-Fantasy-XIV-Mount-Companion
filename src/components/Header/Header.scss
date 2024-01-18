@@ -1,0 +1,40 @@
+@import '../../Styles/variables.scss';
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $darkGray;
+}
+
+.app-title {
+  font-family: $mainFont;
+  font-size: 4em;
+  color: $primaryYellow;
+  text-shadow: 0 0 10px $primaryYellow, 0 0 20px $primaryYellow,
+    0 0 30px $primaryYellow, 0 0 40px $darkGray, 0 0 70px $darkGray,
+    0 0 80px $darkGray, 0 0 100px $darkGray, 0 0 150px $darkGray;
+  animation: glow 3s infinite alternate;
+  margin-right: 20px;
+}
+
+@keyframes glow {
+  to {
+    text-shadow: 0 0 5px $primaryYellow, 0 0 10px $primaryYellow,
+      0 0 10px $primaryYellow, 0 0 20px $darkGray, 0 0 35px $darkGray,
+      0 0 40px $darkGray, 0 0 50px $darkGray, 0 0 75px $darkGray;
+  }
+}
+
+@media screen and (max-width: 478x) {
+  .app-title {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .app-title {
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": 338,
+  "name": "Quaqua",
+  "description": "Summon forth your quaqua, a familiar hailing from the south sea isles that has either a permanent snarl or grin, depending on one's outlook on life.",
+  "enhanced_description": "Employed by a treasure hunter of Aloalo Island, this familiar was born of an early form of arcanima, an art which emerged in the south sea isles. The being's origin is attested by its predominantly wooden construction, a method which precedes the use of gemstones to create Carbuncles.",
+  "tooltip": "Them younglin's will be grinnin' ear to ear when they see what you've got in store! - Baenfaeld",
+  "movement": "Terrestrial",
+  "seats": 1,
+  "order": 276,
+  "order_group": 108,
+  "patch": "6.51",
+  "item_id": 41499,
+  "tradeable": true,
+  "owned": "0.8%",
+  "image": "https://ffxivcollect.com/images/mounts/large/338.png",
+  "icon": "https://ffxivcollect.com/images/mounts/small/338.png",
+  "bgm": "https://ffxivcollect.com/music/BGM_Ride_VVD06.ogg",
+  "sources": [
+    {
+      "type": "V&C Dungeon",
+      "text": "Another Aloalo Island",
+      "related_type": "Instance",
+      "related_id": 37005
+    },
+    {
+      "type": "V&C Dungeon",
+      "text": "Trisassant - Old Sharlayan - 100 Aloalo Coins",
+      "related_type": null,
+      "related_id": null
+    }
+  ]
+}
