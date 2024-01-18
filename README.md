@@ -33,7 +33,7 @@
 <h2  id="getting-started">🗂️ Getting Started </h2>
 
 1. Fork or clone down this respository. 
-2. In the terminal, open this app by running the command `cd <ffxiv-mount-companion/ffxiv-mount-companion>`
+2. In the terminal, open this app by running the command `cd ffxiv-mount-companion>`
 3. Run the command  `npm install` to install dependencies.
 4. Run the command `npm start` to start the server.
 5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -41,7 +41,7 @@
 7. Use control C to stop the server.
 8. To test, run the command `npx cypress open`.
 9. To search for mounts (if you are not familar with them), try the words 'chocobo' or 'moogle' to see different results of some of my favorite mounts! 
-
+10. To see the original repo for this (without a nested folder) please go <a href="https://github.com/Jnguyen615/FFXIV-Mount-Companion">here</a>.
 <h2  id="preview"> 🎥 Preview 📱 </h2>
 
 ![giphy](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHd5Yzh6eTRhMDJjd2Fobms2dTkzN2tqY2wxdndkZ2dibnVwaDJwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KOPphsWiThdRthWlST/giphy.gif)
