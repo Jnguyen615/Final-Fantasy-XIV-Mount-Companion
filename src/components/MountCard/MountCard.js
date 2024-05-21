@@ -1,6 +1,6 @@
 import './MountCard.scss';
 import PropTypes from 'prop-types';
-import CollectedMountIcon from '../CollectedMountsIcon/CollectedMountsIcon';
+import CollectedMountIcon from '../CollectedIcon/CollectedIcon';
 
 const MountCard = ({
   id,

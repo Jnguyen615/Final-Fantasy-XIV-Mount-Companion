@@ -7,6 +7,9 @@ const NavBar = () => {
       <Link to="/collectedmounts">
         <button className='my-mounts-btn'>My Mounts</button>
       </Link>
+      <Link to="/collectedminions">
+        <button className='my-minions-btn'>My Minions</button>
+      </Link>
     </div>
   );
 };

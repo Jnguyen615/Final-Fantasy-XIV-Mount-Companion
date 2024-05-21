@@ -1,4 +1,4 @@
-import './MainDisplay.scss';
+import './MainMountDisplay.scss';
 import NavBar from '../NavBar/NavBar';
 import MountCard from '../MountCard/MountCard';
 import Header from '../Header/Header';
@@ -7,7 +7,7 @@ import Search from '../Search/Search';
 import ScrollFollowButton from '../ScrollFollowButton/ScrollFollowButton';
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import Moogle from '../../Images /moggle3.png'
+import Moogle from '../../Images /moogle3.png'
 const MainDisplay = ({
   mounts,
   collectedMounts,

@@ -6,25 +6,25 @@ import FFXIVLogo from '../FFXIVLogo/FFXIVLogo'
 import { useParams, Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-const IndividualMountCard = ({
-  mounts,
-  collectedMounts,
-  toggleCollectedMounts,
+const IndividualMinionPage = ({
+  moinionss,
+  collectedMinions,
+  toggleCollectedMinions,
 }) => {
   const { id } = useParams();
-  const mountId = parseInt(id);
-  const mount = mounts.find(mount => mount.id === mountId);
-  const isCollected = collectedMounts.some(mount => mount.id === mountId);
+  const minionId = parseInt(id);
+  const minion = minions.find(mount => minion.id === minionId);
+  const collectedMinion = collectedMinions.some(mount => mount.id === mountId);
  
 
-  const handleToggleFavorite = () => {
-    if(mount){
-    toggleCollectedMounts(mount);
+  const handleToggleFavoriteMinion = () => {
+    if(minion){
+    toggleCollectedMinions(minion);
     }
   };
 
   return (
-    <div className="mount-page">
+    <div className="minion-page">
       <Header />
       <FFXIVLogo />
       <NavBar />
@@ -32,7 +32,7 @@ const IndividualMountCard = ({
         <CollectedMountsIcon
         className='fav-icon-indiv-mount-page'
           isCollected={isCollected}
-          toggleCollectedMounts={handleToggleFavorite}
+          toggleCollectedMounts={handleToggleFavoriteMinion}
         />
 
         <Link to="/main">

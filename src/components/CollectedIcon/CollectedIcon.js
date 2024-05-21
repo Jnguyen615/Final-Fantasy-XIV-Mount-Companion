@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 
-const CollectedMountIcon = ({ toggleCollectedMounts, isCollected }) => {
+const CollectedIcon = ({ toggleCollectedMounts, isCollected }) => {
   
  
   const handleClick = (id) => {
@@ -42,9 +42,9 @@ const CollectedMountIcon = ({ toggleCollectedMounts, isCollected }) => {
   );
 };
 
-CollectedMountIcon.propTypes = {
+CollectedIcon.propTypes = {
   toggleCollectedMounts: PropTypes.func.isRequired,
   isCollected: PropTypes.bool.isRequired,
 };
 
-export default CollectedMountIcon;
+export default CollectedIcon;
