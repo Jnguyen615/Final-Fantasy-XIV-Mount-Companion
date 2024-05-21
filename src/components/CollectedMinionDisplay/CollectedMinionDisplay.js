@@ -38,7 +38,7 @@ const CollectedMinionDisplay = ({
         <div>
          
           <p className="no-favorites">
-            You don't have any minions yet, add some!
+            You don't have any favorite minions yet, add some!
           </p>
         </div>
       )}
